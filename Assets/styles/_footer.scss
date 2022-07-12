@@ -1,0 +1,63 @@
+/* Footer Section */
+.footer {
+  hr {
+    background: #dfe1e6;
+  }
+}
+
+.footer-social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  height: 60px;
+
+  li {
+    &:hover {
+      transition: 0.5 all;
+      transform: rotate(10deg);
+    }
+  }
+}
+
+.github-icon {
+  background-image: url("../images/github.svg");
+  width: 40px;
+  height: 40px;
+}
+
+.linkedin-icon {
+  background-image: url("../images/linkdn.svg");
+  width: 40px;
+  height: 40px;
+}
+
+.angellist-icon {
+  background-image: url("../images/angellist.svg");
+  width: 40px;
+  height: 40px;
+}
+
+.twitter-icon {
+  background-image: url("../images/twitter.svg");
+  width: 40px;
+  height: 40px;
+}
+
+.medium-icon {
+  background-image: url("../images/medium.svg");
+  width: 40px;
+  height: 40px;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  /* Footer Section */
+  .footer-social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    height: 60px;
+  }
+}

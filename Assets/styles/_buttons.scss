@@ -1,0 +1,57 @@
+/* Button Styles */
+.btn-primary {
+  background-color: $primary-color;
+  font-family: $inter-family;
+  max-width: 100%;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+  border: 1px solid $primary-color;
+  padding: 12px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #fff5e1;
+    border: 1px solid $primary-color;
+    color: $primary-color;
+  }
+
+  &:active {
+    background-color: $primary-color;
+    font-family: $inter-family;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    color: #f4f1f0;
+  }
+
+  [disabled="disabled"],
+  &:disabled {
+    background-color: #f4f1f0;
+    color: $grey-color;
+    font-family: $inter-family;
+    max-width: 100%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    border: 1px solid $primary-color;
+  }
+}
+
+.btn-block {
+  width: 327px;
+  height: 48px;
+}
+
+.btn-left {
+  width: 322px;
+}
+
+.btn-hidden {
+  visibility: hidden;
+  height: 0;
+}

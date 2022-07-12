@@ -1,0 +1,81 @@
+/* Navbar Section */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  background-color: $dark-color;
+}
+
+.navbar {
+  display: none;
+  width: 100%;
+  height: 60px;
+  background-color: $dark-color;
+}
+
+.nav-flex {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 14px;
+  margin-right: 14px;
+}
+
+.logo {
+  font-family: $roboto-family;
+  text-decoration: none;
+  color: white;
+  width: 200px;
+  margin-left: 24px;
+}
+
+.mobile-toggle-btn {
+  cursor: pointer;
+  font-family: $roboto-family;
+  color: white;
+  margin-right: 24px;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  /* Navbar Section */
+  .mobile-toggle-btn {
+    display: none;
+  }
+
+  .logo {
+    margin-left: 154px;
+  }
+
+  .navbar {
+    display: block;
+  }
+
+  .nav-flex {
+    height: 60px;
+    justify-content: flex-end;
+    margin-right: 150px;
+  }
+
+  .nav-link {
+    list-style: none;
+
+    a {
+      font-family: $roboto-family;
+      text-decoration: none;
+      color: white;
+      margin-left: 8px;
+      margin-right: 34px;
+    }
+  }
+
+  .envelope {
+    background-image: url("../images/mail.svg");
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+  }
+}

@@ -1,0 +1,14 @@
+@import './variables';
+@import './header';
+@import './hero';
+@import './work';
+@import './about';
+@import './contact';
+@import './footer';
+@import './buttons';
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
